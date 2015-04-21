@@ -281,8 +281,7 @@ class ZhGisCkanMetadata(CkanMetadata):
         'maintainer': StringAttribute(u'GIS-Zentrum Kanton Zürich'),
         'maintainer_email': StringAttribute('gis@bd.zh.ch'),
         'license_url': StringAttribute(
-            'http://www.are.zh.ch/internet/baudirektion/are/de'
-            '/geoinformationen/gis-zh_gis-zentrum/geodaten.html'
+            'http://www.geolion.zh.ch/GIS-ZH%20Lizenz.pdf'
         ),
         'version': XPathTextAttribute(
             ".//gmd:identificationInfo//gmd:citation//gmd:date/gco:Date"
